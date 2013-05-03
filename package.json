@@ -1,7 +1,9 @@
 {
   "name": "redis-hll",
-  "version": "0.0.0",
-  "description": "HyperLogLog backed by redis",
+  "version": "0.0.1",
+  "description": "A Redis backed HyperLogLog implementation for node.js.",
+  "author": "Garrett Johnson",
+  "license": "MIT",
   "main": "index.js",
   "scripts": {
     "test": "make test"
@@ -16,12 +18,13 @@
     "redis",
     "cardinality"
   ],
-  "author": "Garrett Johnson",
-  "license": "MIT",
   "dependencies": {
     "redis": "~0.8.3",
-    "murmurhash3": "~0.2.1",
+    "murmurhash3": "~0.2.1"
+  },
+  "devDependencies": {
     "mocha": "~1.9.0",
     "should": "~1.2.2"
-  }
+    },
+  "readmeFilename": "README.md"
 }
