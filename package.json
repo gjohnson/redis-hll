@@ -1,0 +1,27 @@
+{
+  "name": "redis-hll",
+  "version": "0.0.0",
+  "description": "HyperLogLog backed by redis",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:gjohnson/redis-hll"
+  },
+  "keywords": [
+    "hll",
+    "hyperloglog",
+    "redis",
+    "cardinality"
+  ],
+  "author": "Garrett Johnson",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "~0.8.3",
+    "murmurhash3": "~0.2.1",
+    "mocha": "~1.9.0",
+    "should": "~1.2.2"
+  }
+}
