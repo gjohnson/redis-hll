@@ -1,6 +1,6 @@
 {
   "name": "redis-hll",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A Redis backed HyperLogLog implementation for node.js.",
   "author": "Garrett Johnson",
   "license": "MIT",
